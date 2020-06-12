@@ -8,17 +8,17 @@ Motivated by [Thomas Bassine's](https://twitter.com/tvbassine) Nylon Calculus pi
 As Thomas points out, the NBA and sports in general are often viewed from a binary 'championship or bust' lens. My hope is to provide an alternative viewpoint, as he has done, to quantify the success of NBA organizations beyond NBA titles won. Further, I seek to answer such questions as 'does it really take a top-10 offense and defense to win a title?' by exploring the relationship between box-score data and championship probabilities. Lastly, I make predictions for the 2019-2020 season based on data through the suspension of the regular season.
 
 #### Table of Contents
-1. [Championships Above/Below Expectations Since 2004-2005](#Championships-Above/Below-Expectations-Since-2004-2005)
-2. [Maximum Championship Probability Historically](#Maximum-Championship-Probability-Historically)
-3. [Championships Above/Below Expectation Since 2010-2019](#Championships-Above/Below-Expectation-Since-2010-2019)
-4. [NBA Champions Probability Over Time](#NBA-Champions-Probability-Over-Time)
-5. [Team Probability Breakdowns](#Team-Probability-Breakdowns)
-6. [What Does It Take To Win An NBA Title?](#What-Does-It-Take-To-Win-An-NBA-Title?)
-7. [How Did Each Team Win the Title?](#How-Did-Each-Team-Win-the-Title?)
-8. [The Model](#The-Model)
-9. [2019-2020 Predictions](#2019-2020-Predictions)
-10. [Next Steps](#Next-Steps)
-11. [References](#References)
+1. [Championships Above/Below Expectations Since 2004-2005](#championships-abovebelow-expectations-since-2004-2005)
+2. [Maximum Championship Probability Historically](#maximum-championship-probability-historically)
+3. [Championships Above/Below Expectation Since 2010-2019](#championships-abovebelow-expectation-since-2010-2019)
+4. [NBA Champions Probability Over Time](#nba-champions-probability-over-time)
+5. [Team Probability Breakdowns](#team-probability-breakdowns)
+6. [What Does It Take To Win An NBA Title?](#what-does-it-take-to-win-an-nba-title)
+7. [How Did Each Team Win the Title?](#how-did-each-team-win-the-title)
+8. [The Model](#the-model)
+9. [2019-2020 Predictions](#2019-2020-predictions)
+10. [Next Steps](#next-steps)
+11. [References](#references)
 
 #### Championships Above/Below Expectations Since 2004-2005
 Aggregating the championship probabilities since 2004-2005, we're able to calculate the `Championships Predicted` for a given team based on their league rank in offensive and defensive four factors and ratings. We can then compare this to the actual number of titles a team won to create  `Championships Above/Below Expectations`. For example, San Antonio was predicted to win 3.55 titles but only won 3 and thus was -0.55 championships below expectation. Alternatively, Golden State was predicted to win 2.89 championships and in reality won 3, 0.11 championships above expectation.
